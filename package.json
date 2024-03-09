@@ -14,10 +14,10 @@
     "@vitejs/plugin-react": "^4.2.1"
   },
   "scripts": {
-    "dev": "vite",
-    "build": "tsc && vite build",
-    "preview": "vite preview"
-  },
+    "start": "react-scripts --openssl-legacy-provider start",
+    "build": "react-scripts --openssl-legacy-provider build", "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+    },
   "browserslist": [
     ">0.2%",
     "not dead",
